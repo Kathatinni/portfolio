@@ -1,6 +1,6 @@
-let menuIcon= document.querySelectior('#menu-icon');
+let menuIcon= document.querySelector('#menu-icon');
 let navbar= document.querySelector('.navbar');
-menuIcon.onclick=() => {
+menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active');
-}
+};
