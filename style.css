@@ -228,20 +228,20 @@ section{
     font-size: 7rem;
     margin: 5rem 0;
 }
-.services{
+.educations{
     background-color: var(--bg-color);
     color:rgb(255, 255, 255);
 }
-.services h2{
+.educations h2{
     color: var(--text-color);
 }
-.services-container{
+.educations-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     align-items: center;
     gap: 2.5rem;
 }
-.service-box{
+.education-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,13 +252,13 @@ section{
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
 }
-.service-box:hover{
+.education-box:hover{
     background-color: var(--second-bg-color);
     color: var(--main-color);
     border:5px solid var(--main-color);
     transform: scale(1.03);
 }
-.service-info{
+.education-info{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -266,17 +266,17 @@ section{
     align-items: center;
     padding: 5rem;
 }
-.service-info h4{
+.education-info h4{
     font-size: 4rem;
     margin: 2rem 0;
     font-weight: 800;
 }
-.service-info p{
+.education-info p{
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.7;
 }
-.service-info i{
+.education-info i{
     font-size: 8rem;
 }
 
