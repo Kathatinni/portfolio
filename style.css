@@ -230,27 +230,29 @@ section{
 }
 .educations{
     background-color: var(--bg-color);
-    color:rgb(255, 255, 255);
+    color:rgb(254, 250, 250);
 }
+
 .educations h2{
     color: var(--text-color);
 }
 .educations-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    align-items: center;
-    gap: 2.5rem;
+    align-items: right;
+    gap: 3rem;
 }
 .education-box{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     background-color: var(--second-bg-color);
     height: 600px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
+    
 }
 .education-box:hover{
     background-color: var(--second-bg-color);
@@ -258,26 +260,63 @@ section{
     border:5px solid var(--main-color);
     transform: scale(1.03);
 }
-.education-info{
+.education-info1{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
     padding: 5rem;
 }
-.education-info h4{
+.education-info1 h4{
     font-size: 4rem;
     margin: 2rem 0;
     font-weight: 800;
+    text-align: right;
 }
-.education-info p{
-    font-size: 1.4rem;
+.education-info1 p{
+    font-size: 2.4rem;
     font-weight: 600;
     line-height: 1.7;
+    text-align: right;
 }
-.education-info i{
-    font-size: 8rem;
+.education-info2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    padding: 5rem;
+}
+.education-info2 h4{
+    font-size: 4rem;
+    margin: 2rem 0;
+    font-weight: 800;
+    text-align: left;
+}
+.education-info2 p{
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: left;
+}
+.education-img1 img{
+    width: 20vw;
+    border: 25%;
+    box-shadow: 0 0 25px var(--main-color)
+                0 0 50px var(--main-color)
+                0 0 100px var(--main-color);
+    float: left;
+    box-shadow: 0 0 25px var(--main-color);
+}
+.education-img2 img{
+    width: 20vw;
+    border: 25%;
+    box-shadow: 0 0 25px var(--main-color)
+                0 0 50px var(--main-color)
+                0 0 100px var(--main-color);
+    float: right;
+    box-shadow: 0 0 25px var(--main-color);
 }
 
 .projects{
