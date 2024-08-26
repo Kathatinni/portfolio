@@ -123,10 +123,15 @@ section{
     line-height: 1.8;
 }
 .home-img img{
-    width: 30vw;
+    width: 25vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
+}
+.about-img img{
+    width: 25vw;
+    border-radius: 50%;
+
 }
 .home-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
@@ -195,13 +200,7 @@ section{
     background: var(--second-bg-color);
 
 }
-.about-img img{
-    width: 25vw;
-    border: 50%;
-    box-shadow: 0 0 25px var(--main-color)
-                0 0 50px var(--main-color)
-                0 0 100px var(--main-color);
-}
+
 .about-content h2{
     font-size: 7rem;
     text-align: left;
@@ -325,7 +324,7 @@ section{
 }
 .projects-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    /*grid-template-columns: repeat(auto-fit,minmax(350px,1fr));*/
     place-items: center;
     gap: 3rem;
     row-gap:5rem;
@@ -358,11 +357,17 @@ section{
     object-fit: cover;
 }
 .project-card h3{
-    font-size: 6rem;
+    font-size: 3rem;
 }
 .project-card p{
     font-size: 1.6rem;
 }
+/*#project-title{
+    font-size: 3rem;
+}
+#project-details{
+    font-size: 1.5rem;
+}*/
 
 .contact{
     background-color: var(--bg-color);
