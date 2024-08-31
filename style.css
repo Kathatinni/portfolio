@@ -202,7 +202,7 @@ section{
     text-align: left;
 }
 .about-content p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     gap: 1rem;
 }
 .about-content .btn{
@@ -327,14 +327,15 @@ section{
 }
 .projects-box{
     display: grid;
-    /*grid-template-columns: repeat(auto-fit,minmax(350px,1fr));*/
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     place-items: center;
     gap: 3rem;
     row-gap:5rem;
 
 }
 .project-card{
-    display: flex;
+    height: 300px;
+    display: block;
     justify-content: center;
     align-items: center;
     justify-content: center;
@@ -344,7 +345,7 @@ section{
     border-radius: 3rem;
     gap: 2rem;
     padding: 5rem 2rem;
-    overflow: hidden;
+    /*overflow: hidden;*/
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
@@ -364,6 +365,9 @@ section{
 }
 .project-card p{
     font-size: 2rem;
+}
+#others{
+    width: 500px;
 }
 /*#project-title{
     font-size: 3rem;
