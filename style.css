@@ -10,7 +10,7 @@
     --bg-color:#080808;
     --second-bg-color:#101010;
     --text-color: white;
-    --main-color:#ea580c;
+    --main-color:#0a058f;
 }
 html{
     font-size:60%;
@@ -52,8 +52,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #a778e0 10%,
+        #29067c 100%
     );
     background-clip: text;
     color: transparent;
@@ -76,13 +76,13 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #a778e0 10%,
+        #29067c 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    color: white;
+    color: rgba(255, 255, 255, 0.881);
     border: none;
     text-wrap: nowrap;
 }
@@ -165,7 +165,7 @@ section{
     box-shadow: 0 0 25px var(--main-color);
     border-radius: 3rem;
     font-size: 1.8rem;
-    color: black;
+    color: rgb(237, 235, 235);
     border: 2px solidtransparent;
     font-weight: 600;
     transition: 0.3s ease-in-out;
@@ -177,7 +177,7 @@ section{
 
 }
 .btn-group a:nth-of-type(2){
-    background-color: black;
+    background-color: rgb(253, 249, 249);
     color: var(--main-color);
     border: 2px solid var(--main-color);
     box-shadow: 0 0 25px transparent;
@@ -186,7 +186,7 @@ section{
 .btn-group a:nth-of-type(2):hover{
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
-    color: black;
+    color: rgb(247, 246, 246);
 }
 .about{
     display: flex;
