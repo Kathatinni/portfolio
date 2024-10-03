@@ -52,7 +52,7 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #a778e0 10%,
+        #4e2e75 10%,
         #29067c 100%
     );
     background-clip: text;
@@ -76,7 +76,7 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #a778e0 10%,
+        #4e2e75 10%,
         #29067c 100%
     );
     letter-spacing: 1px;
@@ -366,6 +366,11 @@ section{
 .project-card p{
     font-size: 2rem;
 }
+
+.project-card .btn{
+    background-color: #e1e1ea;
+}
+
 #others{
     width: 420px;
 }
